@@ -12,7 +12,7 @@ h1 {
 
 section {
 	width: 100%;
-	height: 700px;
+	height: 500px;
 	background: url('https://download.unsplash.com/reserve/ZF75d1lhQ0SyLWYEGOqO_21_forest_mountains.jpg')no-repeat center / cover;
 }
 
@@ -54,12 +54,6 @@ section {
 	text-align: center;
 	whites-space:nowrap;
 }
-
-/*#score_holder {
-	width: 100%;
-	display: inline-block;
-	margin-right: 200px;
-}*/
 
 #question_score {
 	display: inline-block;
