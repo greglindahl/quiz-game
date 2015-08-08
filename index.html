@@ -10,12 +10,9 @@
 <h1>Show What you Know about Colorado</h1>
 <section>
 <div id="question_wrapper">
-			<span class="question">What is the tallest 14er in Colorado?</span><br>
+			<span class="question"></span><br>
 			<div id="answer_holder">
-				<input type="radio" name="option" class="option" value="0"><span class="answer">Mt Elbert</span><br>
-				<input type="radio" name="option" class="option" value="1"><span class="answer">Mt. Evans</span><br>
-				<input type="radio" name="option" class="option" value="2"><span class="answer">Pikes Peak</span><br>
-				<input type="radio" name="option" class="option" value="3"><span class="answer">Mt Sherman</span><br>
+                <ul class="question-holder"></ul>
 			</div>
 			<div id="button_holder">
 				<input type="button" id="submit" value="Submit Answer">
@@ -25,8 +22,10 @@
 		</div>
 </section>
 <div id="bottom">
-		<div id="fact_holder">
-			<span id="last_question_fact" style="display: none;">Mt Elbert is the tallest 14er at 14,433ft.</span>
+		<div id="score_holder">
+			<div id="fact_holder">
+				<span id="last_question_fact"></span>
+			</div>
 		</div>
 	</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
